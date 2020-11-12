@@ -1,0 +1,216 @@
+body {
+  background-color: rgb(240, 240, 240);
+}
+
+header a, header a:visited {
+  color: #006FBB;
+  text-decoration: none;
+}
+  
+#templatemo_wrapper {
+  width: 680px;
+  margin: 0 auto;
+  background-color:#b6b6b6"
+  }
+    
+    
+    #templatmeo_header {
+  width: 100%;
+      padding-top: 20px;
+      margin: 0 auto;
+      position: top;
+  background-color:#ffffff;
+      border : 0;
+     
+  }
+  div#jaune {
+
+    background-color:#ffdd00;
+        padding: 1em;
+        vertical-align:middle;
+        text-align: center;
+         margin-top: 20px;  
+        border-radius: 10px 10px 0 0;
+    }
+
+    div#contenu22 { 
+      
+  
+      background-color:#ffffff;
+        
+      padding: 1.5em 2.1em;
+      vertical-align:middle;
+      
+      
+      border-radius: 0 0 10px 10px;  
+        
+  }
+
+  h1.logo    {
+    
+    margin-left: -23px;
+
+  
+   
+}  
+
+#col1
+{
+
+ float:left;
+padding: 5px;
+width: 150px;
+}
+
+  #col2
+{
+
+ float:left;
+padding: 5px;
+width: 150px;
+ margin-left: 150px;
+}
+
+
+
+     div#uno {
+
+padding: 1.5em;
+ vertical-align:middle;
+ 
+ border-radius: 10px 10px 0 0;
+
+}
+
+header {
+  background-color: rgb(255, 255, 255);
+  color: rgb(215, 215, 233);
+  margin: 0;
+  border-radius: 5px;
+  margin-bottom: 30px;
+  padding: 18px;
+  font-size: 2.4em;
+  font-weight: bold;
+  border-bottom: 1px #C6C6C6 solid;
+}
+body {
+
+    background-color:rgb(240, 240, 240)
+      
+}
+
+#footer {
+  margin-top: 80px;
+  padding: 1.2em 0;
+  background: rgb(255, 254, 254);
+  bottom: 0;
+  border-radius: 10px;
+  margin-right: -33px;
+  text-align: center;
+  font-family: "Fjalla One", Verdana, Geneva, sans-serif;
+  font-size: 0.54em;
+  text-transform: uppercase;
+
+}
+  
+  
+  nav {
+  width: auto;
+  padding:10px;
+  background:rgb(243, 243, 243);
+    align:center;
+}
+
+div#social { 
+      
+  background-color:#ffffff;
+   
+  margin-top: 20px;   
+   padding: 1.5em 2.1em;
+   vertical-align:middle;
+   
+   border-radius: 10px 10px 10px 10px;
+     
+     
+}
+  
+div#costumer-services { 
+      
+  background-color:#ffffff;
+   
+  margin-top: 20px;   
+   padding: 1.5em 2.1em;
+   vertical-align:middle;
+   
+   border-radius: 10px 10px 10px 10px;
+     
+     
+}
+
+img {
+  height: auto;
+}
+
+h1.logo    {
+    
+  margin-left: -23px;
+
+}
+
+.hide_mobile {
+  display: none !important;
+}
+
+p {
+  font-family:Arial;
+  font-size: 1.1em;
+              
+  
+}
+
+h1 {
+  font-family:Arial;
+  font-size: 1.2em;
+        font-color: #515151;
+       font-weight: bold 
+       
+  
+}
+
+h2 {
+  font-family:Arial;
+  color: #009ee0; 
+  font-size: 1.15em;
+       
+  
+}
+
+div#covid-section {
+ 
+  background-color:#ffffff;
+   
+  margin-top: 20px;   
+   padding: 1.5em 2.1em;
+   vertical-align:middle;
+   
+   border-radius: 10px 10px 10px 10px;
+}
+
+div#covid-cases {
+  
+  background-color:#ffffff;
+   
+  margin-top: 20px;   
+   padding: 1.5em 2.1em;
+   vertical-align:middle;
+   
+   border-radius: 10px 10px 10px 10px;
+}
+
+a    {
+    
+color: #1b8cd8; 
+text-decoration:none;
+font-weight: bolder;
+   
+} 
