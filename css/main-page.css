@@ -1,9 +1,20 @@
 body {
   background-color: rgb(240, 240, 240);
 }
+header {
+  background-color: rgb(255, 255, 255);
+  color: rgb(30, 146, 224);
+  margin: 0;
+  margin-bottom: 32px;
+  padding: 18px;
+  border-radius: 5px;
+  font-size: 2.4em;
+  font-weight: bold;
+  border-bottom: 1px rgb(253, 253, 253) solid;
+}
 
 header a, header a:visited {
-  color: #006FBB;
+  color: rgb(22, 149, 233);
   text-decoration: none;
 }
   
@@ -81,18 +92,6 @@ padding: 1.5em;
  border-radius: 10px 10px 0 0;
 
 }
-
-header {
-  background-color: rgb(255, 255, 255);
-  color: rgb(215, 215, 233);
-  margin: 0;
-  border-radius: 5px;
-  margin-bottom: 30px;
-  padding: 18px;
-  font-size: 2.4em;
-  font-weight: bold;
-  border-bottom: 1px #C6C6C6 solid;
-}
 body {
 
     background-color:rgb(240, 240, 240)
@@ -114,12 +113,12 @@ body {
 }
   
   
-  nav {
-  width: auto;
-  padding:10px;
-  background:rgb(243, 243, 243);
+nav {
+  padding:5px;
+  background:white;
     align:center;
 }
+  
 
 div#social { 
       
