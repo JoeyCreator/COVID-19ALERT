@@ -195,6 +195,19 @@ div#covid-section {
    border-radius: 10px 10px 10px 10px;
 }
 
+div#costumer-services { 
+      
+  background-color:#ffffff;
+   
+  margin-top: 20px;   
+   padding: 1.5em 2.1em;
+   vertical-align:middle;
+   
+   border-radius: 10px 10px 10px 10px;
+     
+     
+}
+
 div#covid-cases {
   
   background-color:#ffffff;
