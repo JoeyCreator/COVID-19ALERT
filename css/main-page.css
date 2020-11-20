@@ -23,6 +23,19 @@ header a, header a:visited {
   margin: 0 auto;
   background-color:#b6b6b6"
   }
+  #footer {
+    margin-top: 80px;
+    padding: 1.2em 0;
+    background: rgb(255, 254, 254);
+    bottom: 0;
+    border-radius: 10px;
+    margin-right: -33px;
+    text-align: center;
+    font-family: "Fjalla One", Verdana, Geneva, sans-serif;
+    font-size: 0.54em;
+    text-transform: uppercase;
+  
+  }
     
     
     #templatmeo_header {
@@ -98,19 +111,6 @@ body {
       
 }
 
-#footer {
-  margin-top: 80px;
-  padding: 1.2em 0;
-  background: rgb(255, 254, 254);
-  bottom: 0;
-  border-radius: 10px;
-  margin-right: -33px;
-  text-align: center;
-  font-family: "Fjalla One", Verdana, Geneva, sans-serif;
-  font-size: 0.54em;
-  text-transform: uppercase;
-
-}
   
   
 nav {

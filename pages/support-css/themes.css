@@ -1,0 +1,54 @@
+body {
+  background-color: rgb(14, 14, 12);
+}
+
+nav {
+  width: auto;
+  border-radius: 5px;
+  padding: 10px;
+  background: rgb(73, 72, 72);
+  align: center;
+}
+
+h1 {
+  font-weight: bold;
+  color: #2182dd;
+  font-size: 1.3em;
+  margin: 1.3em 0px 1em;
+  line-height: 1.3em;
+}
+a {
+  color: #1b8cd8;
+  text-decoration: underline;
+  font-weight: bolder;
+}
+#footer {
+  margin-top: 80px;
+  padding: 1.2em 0;
+  background: rgb(255, 254, 254);
+  bottom: 0;
+  border-radius: 10px;
+  margin-right: -33px;
+  text-align: center;
+  font-family: "Fjalla One", Verdana, Geneva, sans-serif;
+  font-size: 0.54em;
+  text-transform: uppercase;
+}
+div#support-team {
+  background-color: #ffffff;
+  margin-top: 20px;
+  padding: 1.5em 2.1em;
+  vertical-align: middle;
+  border-radius: 10px 10px 10px 10px;
+}
+p {
+  font-weight: 0.54em;
+  color: blue;
+}
+div#covid-section {
+  background-color: #ffffff;
+  margin-top: 20px;
+  padding: 1.5em 2.1em;
+  vertical-align: middle;
+  border-radius: 10px 10px 10px 10px;
+}
