@@ -9,6 +9,6 @@ console.log(
 );
 
 console.log(
-  "%cSee https://softwareqc.netlify.app for more information.",
+  "%cSee https://github.com/JoeyCreator/COVID-19ALERT/blob/main/LICENSE.md for more information.",
   "color:black;font-family:system-ui;font-size:1.2rem;-webkit-text-stroke: 1px black;font-weight:arial"
 );
