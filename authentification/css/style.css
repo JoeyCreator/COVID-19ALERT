@@ -1,0 +1,51 @@
+body {
+  color: aliceblue;
+}
+header {
+  background-color: #ebebeb;
+  color: #006fbb;
+  margin: 0;
+  margin-bottom: 32px;
+  padding: 18px;
+  font-size: 2.4em;
+  font-weight: bold;
+  border-bottom: 1px #c6c6c6 solid;
+}
+
+header a,
+header a:visited {
+  color: #006fbb;
+  text-decoration: none;
+}
+footer {
+  margin: 16px;
+  margin-top: 32px;
+  font-style: italic;
+  font-size: 0.8em;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #b93a38;
+}
+label {
+  text-align: right;
+  width: 100px;
+  display: block;
+  float: left;
+  clear: left;
+  margin-right: 3px;
+  cursor: pointer;
+}
+input {
+  text-align: right;
+  width: 100px;
+  display: block;
+  float: left;
+  clear: left;
+  margin-right: 3px;
+  cursor: pointer;
+}
