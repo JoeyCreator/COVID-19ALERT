@@ -88,8 +88,21 @@
          </div>
       </div>
    </div>
+   
+   
 
-   <script src="" async defer></script>
+   <script>
+      
+const MongoClient = require('mongodb').MongoClient;
+const uri = "mongodb+srv://joeycreator:<password>@cluster0.eyh6j.mongodb.net/<dbname>?retryWrites=true&w=majority";
+const client = new MongoClient(uri, { useNewUrlParser: true });
+client.connect(err => {
+  const collection = client.db("test").collection("devices");
+  // perform actions on the collection object
+  client.close();
+});
+
+   </script>
 </body>
 
 </html>
