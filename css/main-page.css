@@ -12,7 +12,7 @@ header {
   font-weight: normal;
   border-bottom: 1px rgb(253, 253, 253) solid;
 }
-#footer {
+#footer, #copyright, #container {
   margin-top: 80px;
   padding: 1.2em 0;
   background: rgb(255, 254, 254);
@@ -144,6 +144,18 @@ div#costumer-services {
    border-radius: 10px 10px 10px 10px;
      
      
+}
+
+map {
+
+   background-color:#ffffff;
+   
+  margin-top: 20px;   
+   padding: 1.5em 2.1em;
+   vertical-align:middle;
+   
+   border-radius: 10px 10px 10px 10px;
+
 }
 
 img {
