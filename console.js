@@ -4,11 +4,6 @@ console.log(
 );
 
 console.log(
-  "%cThis is a browser feature intended for developers.",
+  "%cUsing this console may allow attackers to impersonate you and steal your information using an attack called Self-XSS.Do not enter or paste code that you don't understand.",
   "color:black;font-family:system-ui;font-size:1.54rem;-webkit-text-stroke: 1px black;font-weight:arial"
-);
-
-console.log(
-  "%cSee https://github.com/JoeyCreator/COVID-19ALERT/blob/main/LICENSE.md for more information.",
-  "color:black;font-family:system-ui;font-size:1.2rem;-webkit-text-stroke: 1px black;font-weight:arial"
 );
