@@ -5,7 +5,7 @@ console.log(
 
 console.log(
   "%cThis is a browser feature intended for developers.",
-  "color:black;font-family:system-ui;font-size:0.54rem;-webkit-text-stroke: 1px black;font-weight:arial"
+  "color:black;font-family:system-ui;font-size:1.54rem;-webkit-text-stroke: 1px black;font-weight:arial"
 );
 
 console.log(
