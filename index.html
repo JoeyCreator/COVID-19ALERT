@@ -27,13 +27,42 @@
  SOFTWARE.
 -->
 
+<?php
 
+$host="localhost";
+$user="root";
+$password="";
+$db="techwit2_auth";
+
+mysql_connect($host,$user,$password);
+$mysql_select_db($db);
+
+if(isset(['username'])) {
+  $username=$_POST['username'];
+  $password=$_POST['password'];
+
+
+ $sql="select * from techwit2_auth where username='".$username."'"AND password'".$password."limit 1";
+
+ $result=mysql_query($sql);
+
+ if(mysql_num_rows($result)==1){
+    echo " you have successfully logged in ";
+    exit();
+ }
+ else{
+   echo " you have entered inccorect password ";
+   exit();
+ }
+
+
+}
+
+
+
+?>
 
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]>      <html class="no-js"> <![endif]-->
 <html>
 
 <head>
