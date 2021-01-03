@@ -30,113 +30,110 @@
 
 
 <!DOCTYPE html>
-<html lang="en">
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <![endif]-->
+<html>
 
 <head>
-   <meta http-equiv="refresh" content="1; URL=https://ct19.covid-19alert.info/admin/management/login" />
-	<!-- CSS only -->
-	<link rel="shortcut icon" href="/favicon.ico">
-	<meta charset="UTF-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
-	<link href="/css/main-page.css" rel="stylesheet" type="text/css" />
-	<title>COVID-19 ALERT</title>
+   <!-- Font Awesome -->
+   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+   <!-- Google Fonts -->
+   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+   <!-- Bootstrap core CSS -->
+   <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+   <!-- Material Design Bootstrap -->
+   <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet">
+   <!--  CSS (ONLY)  -->
+   <meta charset="utf-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <title>COVID-19 ALERT | Login</title>
+   <meta name="description" content="">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <!-- CSS only -->
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
 </head>
 
 <body>
+   <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#https://www.google.ca/chrome/?brand=CHBD&gclid=EAIaIQobChMIttOu1vDf7QIVWuDICh3vUAENEAAYASAAEgLHgfD_BwE&gclsrc=aw.ds">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
 
+   <div class="container mt-5 pt-5 mb-5">
+      <div class="row justify-content-center">
+         <div class="col-md-6 col-lg-4 col-xl-4">
+            <div class="card">
+               <div class="card-body">
+                  <div class="text-center m-auto">
+                     <h4 class="text-uppercase text-center">Login</h4>
+                  </div>
+                  <form action="/pages/license.html" method="post">
+                     <input type="hidden" name="csrftoken"
+                        value="ea49375f43c7e6a59c77df1e4de562b3f1350124eeb70e5d5124e4ce3b5251c2b4d12e9aaf2a3ddc618c178c8dc4620b">
+                     <div class="form-group mb-3">
+                        <label for="emailaddress">Email </label>
+                        <input type="email" name="email" placeholder="Enter email" class="form-control" required="">
+                     </div>
+                     <div class="form-group mb-3">
+                        <label for="password">Password</label>
+                        <div class="input-group bg-light" id="show_hide_password">
+                           <input type="password" class="form-control" id="password" value="Passwords" name="password"
+                              placeholder="Enter Password" required="">
+                           <div class="input-group-addon">
+                              <a href=""><i class="fa fa-lg fa-eye"
+                                    style="padding-top: 10px; padding-left: 10px; padding-right: 10px;"
+                                    aria-hidden="true"></i></a>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="form-group mb-3">
+                        <div class="custom-control custom-checkbox checkbox-success">
+                           <input type="checkbox" class="custom-control-input" id="checkbox-signin" checked>
+                           <label class="custom-control-label" for="checkbox-signin">Remember me</label>
+                        </div>
+                     </div>
+                     <div class="form-group mb-0 text-center">
+                        <button class="btn btn-primary btn-block" type="submit" name="submit"> Log In </button>
+                     </div>
+                     <script>
+                        $(document).ready(function () {
+                           $("#show_hide_password a").on('click', function (event) {
+                              event.preventDefault();
+                              if ($('#show_hide_password input').attr("type") == "text") {
+                                 $('#show_hide_password input').attr('type', 'password');
+                                 $('#show_hide_password i').addClass("fa-eye-slash");
+                                 $('#show_hide_password i').removeClass("fa-eye");
+                              } else if ($('#show_hide_password input').attr("type") == "password") {
+                                 $('#show_hide_password input').attr('type', 'text');
+                                 $('#show_hide_password i').removeClass("fa-eye-slash");
+                                 $('#show_hide_password i').addClass("fa-eye");
+                              }
+                           });
+                        });
+                     </script>
+                  </form>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   
+   
 
-	<!--  Page1  -->
+   <script>
+      
+const MongoClient = require('mongodb').MongoClient;
+const uri = "mongodb+srv://joeycreator:<password>@cluster0.eyh6j.mongodb.net/<dbname>?retryWrites=true&w=majority";
+const client = new MongoClient(uri, { useNewUrlParser: true });
+client.connect(err => {
+  const collection = client.db("test").collection("devices");
+  // perform actions on the collection object
+  client.close();
+});
 
+   </script>
+</body>
 
-	<header>
-		<a href="./index.html">COVID-19 ALERT</a>
-	</header>
-
-
-
-	<div id="templatemo_wrapper">
-		<div id="jaune">
-			<h1><img class="hide_mobile" src="/assets/alerts.png">CANADA COVID-19 Alert </h1>
-          </div>
-          <div id="contenu22">
-            <p>Rolling updates on coronavirus disease (COVID-19).  </p>
-            <p>To know the evolution of the situation, <a target="_blank" href="https://twitter.com/drjoeycadieux">see this page</a>.<br>
-            </p>
-          </div>
-
-
-          <div id="social">
-            <p>Find Us On Social Media</p>
-            <a target="_blank" href="https://twitter.com/drjoeycadieux">Twitter</a>
-            <br />
-            <a target="_blank" href="https://facebook.com">Facebook</a>
-            <br />
-            <a target="_blank" href="/main/faq.html">FAQ</a>
-            <br />
-            <a target="_blank" href="/pages/support/">Support</a>
-          </div>
-    
-    
-    
-          <div id="costumer-services">
-            <p>Coronavirus disease (COVID-19) is an infectious disease caused by a newly discovered coronavirus.
-              Most people who fall sick with COVID-19 will experience mild to moderate symptoms and recover without special treatment.</p>
-            <p>For More Info Contact Us Via Email <a href="mailto:joeycadieux161@gmail.com?subject=SoftwareQC - Costumer Service">Email Us</a></p>
-          </div>
-
-
-          <div id="covid-section">
-          <h1>COVID-19 INFO</h1>
-         <p>
-            To prevent the spread of COVID-19:
-            • Clean your hands often. Use soap and water, or an alcohol-based hand rub.
-
-            • Maintain a safe distance from anyone who is coughing or sneezing.
-
-            • Wear a mask when physical distancing is not possible.
-
-            • Don’t touch your eyes, nose or mouth.
-
-            • Cover your nose and mouth with your bent elbow or a tissue when you cough or sneeze.
-
-            • Stay home if you feel unwell.
-
-            • If you have a fever, cough and difficulty breathing, seek medical attention.
-            
-            Calling in advance allows your healthcare provider to quickly direct you to the right health facility. This protects you, and prevents the spread of viruses and other infections.
-            Masks
-            Masks can help prevent the spread of the virus from the person wearing the mask to others. Masks alone do not protect against COVID-19, and should be combined with physical distancing and hand hygiene. Follow the advice provided by your local health authority.
-         </p>
-          </div>
-
-
-          <div id="youtube-player">
-            <h1>RECENT NEWS</h1>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/MhjBCeuqesU?controls=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          </div>
-
-
-        
-           <div id="footer">
-              <h4 class="text-xs">
-        Developed by Joey Cadieux &middot;
-        <a class="text-blue-600" href="mailto:joey@tech-center.com"
-          >Contact Me</a
-        >
-        &middot;
-        <a class="text-blue-600" href="https://forms.gle/aGjKprCfrrmNhtfa7"
-          >Found an issue?</a
-        >
-
-         &middot;
-        <a class="text-blue-600" href="plan-du-site.html"
-          >Plan Du Site</a
-        >
-      </h4>
-           </div>
-         
-     <script src="console.js">
-     </script>
-  </body>
 </html>
