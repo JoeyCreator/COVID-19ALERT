@@ -2,13 +2,14 @@
 
 $host="localhost";
 $user="root";
-$password="joeydev900";
+$password="";
 $db="techwit2_auth";
 
 mysql_connect($host,$user,$password);
 $mysql_select_db($db);
 
 if(isset(['username'])) {
+  $email=$_POST['email'];
   $username=$_POST['username'];
   $password=$_POST['password'];
 
