@@ -8,7 +8,7 @@ $db="techwit2_auth";
 mysql_connect($host,$user,$password);
 $mysql_select_db($db);
 
-if(isset(['username'])) {
+if(isset(['id'])) {
   $email=$_POST['email'];
   $username=$_POST['username'];
   $password=$_POST['password'];
