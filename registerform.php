@@ -14,7 +14,7 @@ if(isset(['id'])) {
   $password=$_POST['password'];
 
 
- $sql="select * from techwit2_auth where username='".$username."'"AND password'".$password."limit 1";
+ $sql="SELECT * FROM `auth` where username='".$username."'"AND password'".$password."limit 1";
 
  $result=mysql_query($sql);
 
