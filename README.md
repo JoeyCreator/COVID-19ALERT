@@ -4,4 +4,4 @@ Coronavirus disease (COVID-19) is an infectious disease caused by a newly discov
 
 For More Info Contact Us Via Email
 
-![covid-19alerts.netlify.app](https://covid-19alert.netlify.app/assets/screenshot/covid-19alert-offical.png)
+![covid-19alerts.netlify.app](https://covid-19alert.netlify.app/assets/screenshot/Capture d’écran (18).png)
