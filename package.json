@@ -23,6 +23,7 @@
   },
   "dependencies": {
     "@aws-amplify/auth": "^3.4.16",
+    "node-modules": "^1.0.1",
     "vue-js-modal": "^2.0.0-rc.6"
   }
 }
